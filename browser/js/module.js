@@ -71,3 +71,7 @@ juke.run(function ($rootScope) {
   });
 });
 
+juke.config(function($urlRouterProvider) {
+  $urlRouterProvider.when('', 'albums');
+});
+
